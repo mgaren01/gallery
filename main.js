@@ -17,7 +17,7 @@ const imgs = ['pic1.jpg', 'pic2.jpg', 'pic3.jpg', 'pic4.jpg', 'pic5.jpg', 'pic6.
 
 for (let i = 0; i < imgs.length; i++){
     const newImage = document.createElement('img');
-    newImage.setAttribute('src', '/images/' + imgs[i]);
+    newImage.setAttribute('src', 'images/' + imgs[i]);
     //give new image onclick/click handler 
 
     thumbBar.appendChild(newImage);
